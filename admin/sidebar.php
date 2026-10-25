@@ -1,9 +1,8 @@
-```php
 <?php
 $currentPage = basename($_SERVER['PHP_SELF']);
 $currentFolder = basename(dirname($_SERVER['PHP_SELF']));
 
-$adminBase = '/mora-blog-second/admin/';
+$adminBase = '/admin/';
 
 function sidebarActive($folder, $page, $currentFolder, $currentPage) {
     if ($folder === 'dashboard') {
@@ -292,4 +291,3 @@ function sidebarActive($folder, $page, $currentFolder, $currentPage) {
 
     </ul>
 </aside>
-```
